@@ -90,12 +90,12 @@ export default function Home() {
                         <h3 className="font-bold text-lg text-fukuoka-blue">
                           {item.activity}
                         </h3>
-                        {item.needsReservation && (
+                        {'needsReservation' in item && item.needsReservation && (
                           <span className="inline-block bg-red-500 text-white px-2 py-1 rounded text-xs font-bold">
                             需預約
                           </span>
                         )}
-                        {item.warning && (
+                        {'warning' in item && item.warning && (
                           <span className="inline-block bg-yellow-500 text-white px-2 py-1 rounded text-xs font-bold">
                             ⚠️ {item.warning}
                           </span>
@@ -108,7 +108,7 @@ export default function Home() {
                         </p>
                       )}
                       
-                      {item.address && (
+                      {'address' in item && item.address && (
                         <p className="text-gray-600 text-sm mt-1 flex items-start gap-1">
                           <span>📍</span>
                           <span>{item.address}</span>
