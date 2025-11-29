@@ -2,9 +2,13 @@
 
 import { useState, useEffect } from 'react';
 import reservationsData from '@/data/reservations.json';
+import type { Reservation } from '@/types';
 
 export default function ReservationsPage() {
   const [completedReservations, setCompletedReservations] = useState<Set<string>>(new Set());
+  
+  // Cast the imported data to the correct type
+  const reservations = reservationsData as Reservation[];
 
   // Load completed reservations from localStorage
   useEffect(() => {
@@ -41,7 +45,7 @@ export default function ReservationsPage() {
   };
 
   const completedCount = completedReservations.size;
-  const totalCount = reservationsData.length;
+  const totalCount = reservations.length;
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -76,7 +80,7 @@ export default function ReservationsPage() {
 
       {/* Reservations List */}
       <div className="max-w-5xl mx-auto space-y-8">
-        {reservationsData.map((reservation) => {
+        {reservations.map((reservation) => {
           const isCompleted = completedReservations.has(reservation.id);
           
           return (

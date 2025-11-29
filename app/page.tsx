@@ -1,6 +1,10 @@
 import itineraryData from '@/data/itinerary.json';
+import type { DayItinerary } from '@/types';
 
 export default function Home() {
+  // Cast the imported data to the correct type
+  const itinerary = itineraryData as DayItinerary[];
+  
   // Calculate days until trip
   const tripStartDate = new Date('2025-12-13');
   const today = new Date();
@@ -35,7 +39,7 @@ export default function Home() {
 
       {/* Itinerary Timeline */}
       <div className="max-w-4xl mx-auto space-y-8">
-        {itineraryData.map((day, index) => (
+        {itinerary.map((day, index) => (
           <div 
             key={day.id}
             className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden border-l-4 border-fukuoka-pink"
@@ -90,12 +94,12 @@ export default function Home() {
                         <h3 className="font-bold text-lg text-fukuoka-blue">
                           {item.activity}
                         </h3>
-                        {'needsReservation' in item && item.needsReservation && (
+                        {item.needsReservation && (
                           <span className="inline-block bg-red-500 text-white px-2 py-1 rounded text-xs font-bold">
                             需預約
                           </span>
                         )}
-                        {'warning' in item && item.warning && (
+                        {item.warning && (
                           <span className="inline-block bg-yellow-500 text-white px-2 py-1 rounded text-xs font-bold">
                             ⚠️ {item.warning}
                           </span>
@@ -108,7 +112,7 @@ export default function Home() {
                         </p>
                       )}
                       
-                      {'address' in item && item.address && (
+                      {item.address && (
                         <p className="text-gray-600 text-sm mt-1 flex items-start gap-1">
                           <span>📍</span>
                           <span>{item.address}</span>
