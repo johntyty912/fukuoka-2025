@@ -60,7 +60,7 @@ export default function Home() {
                   {index === 0 && '✈️'}
                   {index === 1 && '🍜'}
                   {index === 2 && '🌊'}
-                  {index === 3 && '⛩️'}
+                  {index === 3 && '🏝️'}
                   {index === 4 && '🏙️'}
                   {index === 5 && '😌'}
                   {index === 6 && '🎁'}
@@ -86,7 +86,7 @@ export default function Home() {
                     
                     {/* Content */}
                     <div className="flex-1">
-                      <div className="flex items-center gap-2 flex-wrap">
+                      <div className="flex items-center gap-2 flex-wrap mb-1">
                         {item.time && (
                           <span className="inline-block bg-fukuoka-blue text-white px-3 py-1 rounded-full text-sm font-medium">
                             {item.time}
@@ -108,23 +108,41 @@ export default function Home() {
                       </div>
                       
                       {item.details && (
-                        <p className="text-gray-700 mt-2">
+                        <p className="text-gray-700 mt-1">
                           {item.details}
                         </p>
                       )}
-                      
-                      {item.address && (
-                        <p className="text-gray-600 text-sm mt-1 flex items-start gap-1">
-                          <span>📍</span>
-                          <a 
-                            href={getGoogleMapsUrl(item.address, item.activity)}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:text-fukuoka-blue hover:underline"
-                          >
-                            {item.address}
-                          </a>
-                        </p>
+
+                      {/* Hours & Address Block */}
+                      <div className="mt-2 space-y-1 text-sm text-gray-600">
+                        {item.hours && (
+                          <p className="flex items-center gap-2">
+                            <span>🕒</span>
+                            <span>{item.hours}</span>
+                          </p>
+                        )}
+                        
+                        {item.address && (
+                          <p className="flex items-start gap-2">
+                            <span>📍</span>
+                            <a 
+                              href={getGoogleMapsUrl(item.address, item.activity)}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="hover:text-fukuoka-blue hover:underline"
+                            >
+                              {item.address}
+                            </a>
+                          </p>
+                        )}
+                      </div>
+
+                      {/* Backup Plan */}
+                      {item.backup && (
+                        <div className="mt-3 bg-gray-100 p-2 rounded border-l-2 border-gray-400 text-sm text-gray-700">
+                          <span className="font-bold mr-1">🛡️ 備案:</span>
+                          {item.backup}
+                        </div>
                       )}
                     </div>
                   </div>
@@ -141,23 +159,22 @@ export default function Home() {
         <ul className="space-y-2 text-gray-800">
           <li className="flex items-start gap-2">
             <span>🔸</span>
-            <span><strong>預約建議:</strong> 強烈建議提前預約燒肉大喜、鮨 品川、Nico Appartement 和 Kawaya</span>
+            <span><strong>預約提醒:</strong> 請務必提前預約 鮨 品川、燒肉大喜、Nico Appartement 和 Kawaya。</span>
           </li>
           <li className="flex items-start gap-2">
             <span>🔸</span>
-            <span><strong>太宰府+能古島:</strong> 無需預約，當天自由安排即可</span>
+            <span><strong>排隊心理準備:</strong> Dacomecca、Ikura、糸島食堂、食堂光 都是排隊名店，建議提早抵達或使用備案。</span>
           </li>
           <li className="flex items-start gap-2">
             <span>🔸</span>
-            <span><strong>食堂 光:</strong> 位於糸島，距離市區較遠，需預留足夠的交通時間</span>
+            <span><strong>能古島交通:</strong> 冬季日落較早 (約 17:10)，建議上午前往海島公園，下午返回市區或海濱公園。</span>
           </li>
           <li className="flex items-start gap-2">
             <span>🔸</span>
-            <span><strong>行程彈性:</strong> 第四天是輕鬆日，可依體力調整太宰府或能古島的停留時間</span>
+            <span><strong>Marinoa City:</strong> 已於 2024/8 閉館，請勿前往。</span>
           </li>
         </ul>
       </div>
     </div>
   );
 }
-

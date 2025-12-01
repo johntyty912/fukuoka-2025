@@ -7,6 +7,8 @@ export interface ItineraryItem {
   address?: string;
   needsReservation?: boolean;
   warning?: string;
+  hours?: string;
+  backup?: string;
 }
 
 export interface DayItinerary {
@@ -44,4 +46,3 @@ export interface Reservation {
   backups?: BackupPlan[];
   notes?: string;
 }
-

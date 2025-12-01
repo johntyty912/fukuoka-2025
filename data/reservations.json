@@ -138,6 +138,55 @@
     ]
   },
   {
+    "id": "karada-factory",
+    "name": "KARADA FACTORY (整體 / 按摩)",
+    "category": "活動",
+    "priority": 3,
+    "type": "身體保養",
+    "when": "出發前 3-5 天預約",
+    "day": "第六天 (12月18日)",
+    "address": "KITTE Hakata 10F (或其他分店)",
+    "methods": [
+      {
+        "name": "官網預約",
+        "url": "https://karada39.com/",
+        "description": "可透過官網或 HotPepper Beauty 預約"
+      },
+      {
+        "name": "現場 / 電話",
+        "description": "如果行程不確定，可到店時詢問（但假日可能客滿）"
+      }
+    ],
+    "backups": [
+      {
+        "name": "Raffine (ラフィネ)",
+        "description": "常見的連鎖按摩店，博多站地下街有分店"
+      }
+    ]
+  },
+  {
+    "id": "teamlab-forest",
+    "name": "TeamLab Forest Fukuoka",
+    "category": "活動",
+    "priority": 3,
+    "type": "數位藝術展 (BOSS E-ZO)",
+    "when": "建議提前購票",
+    "day": "第四天 (12月16日) - 備案",
+    "address": "BOSS E-ZO FUKUOKA 5F",
+    "methods": [
+      {
+        "name": "Klook / KKday",
+        "description": "線上購票通常有優惠，且可掃碼入場",
+        "url": "https://www.klook.com"
+      },
+      {
+        "name": "官網購票",
+        "description": "直接在 TeamLab 官網購買"
+      }
+    ],
+    "notes": "如果是雨天備案，建議當天早上確認天氣後再買票（除非是旺季）"
+  },
+  {
     "id": "itoshima-car",
     "name": "糸島租車",
     "category": "交通",
@@ -160,4 +209,3 @@
     "notes": "或選擇搭乘電車+巴士，無需租車"
   }
 ]
-
