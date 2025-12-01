@@ -77,6 +77,34 @@
     ]
   },
   {
+    "id": "princess-phi-phi",
+    "name": "Princess Phi Phi (門司港)",
+    "category": "餐廳",
+    "priority": 3,
+    "type": "燒咖哩名店 (套餐預約)",
+    "when": "出發前 1-2 週",
+    "day": "第三天 (12月15日)",
+    "address": "1-4-7 Nishikaigan, Moji Ward, Kitakyushu",
+    "methods": [
+      {
+        "name": "HotPepper / Tabelog",
+        "description": "僅接受「套餐 (Course)」預約 (約 ¥3000起)",
+        "url": "https://www.hotpepper.jp/strJ000958241/"
+      }
+    ],
+    "notes": "如果不想排隊，這家是門司港少數可預約的名店。Bear Fruits 只能現場排。",
+    "backups": [
+      {
+        "name": "Bear Fruits",
+        "description": "只能現場排隊，建議錯開尖峰時間"
+      },
+      {
+        "name": "伽哩本舗 (Curry Honpo)",
+        "description": "座位較多，海景好，通常需現場候位"
+      }
+    ]
+  },
+  {
     "id": "kawaya-gion",
     "name": "Kawaya Gion (かわ屋 祇園店)",
     "category": "餐廳",
@@ -185,27 +213,5 @@
       }
     ],
     "notes": "如果是雨天備案，建議當天早上確認天氣後再買票（除非是旺季）"
-  },
-  {
-    "id": "itoshima-car",
-    "name": "糸島租車",
-    "category": "交通",
-    "priority": 2,
-    "type": "租車（如果自駕）",
-    "when": "出發前 1 週確認",
-    "day": "第三天 (12月15日)",
-    "methods": [
-      {
-        "name": "租車網站",
-        "url": "https://www.rentalcars.com",
-        "description": "透過 RentalCars.com 或日本租車網站預訂"
-      },
-      {
-        "name": "Klook",
-        "url": "https://www.klook.com",
-        "description": "Klook 也有福岡租車服務"
-      }
-    ],
-    "notes": "或選擇搭乘電車+巴士，無需租車"
   }
 ]

@@ -33,12 +33,13 @@
     "date": "2025-12-15",
     "day": "第三天",
     "weekday": "星期一",
-    "title": "糸島一日遊（海岸風情）",
+    "title": "門司港 & 下關懷舊之旅 (跨越關門海峽)",
     "items": [
-      { "time": "交通", "activity": "租車自駕 或 搭乘電車+巴士", "details": "前往糸島半島", "icon": "🚗" },
-      { "time": "午餐", "activity": "糸島食堂 (Itoshima Shokudo)", "details": "著名的海鮮丼，海景餐廳。建議 11:00 前抵達排隊。", "address": "4787-7 Kota, Nishi Ward, Fukuoka 819-0203", "icon": "🐟", "warning": "排隊名店", "hours": "11:00-16:00" },
-      { "time": "下午", "activity": "櫻井二見浦夫婦岩", "details": "海邊咖啡廳 (Palm Beach)、椰子樹鞦韆", "address": "Shimasakurai, Itoshima, Fukuoka 819-1304", "icon": "🌊" },
-      { "time": "晚餐", "activity": "燒肉大喜 (Yakiniku Taiki)", "details": "唐人町 - 推薦厚切牛舌、橫隔膜。CP值高。", "address": "2 Chome-4-7 Tojinmachi, Chuo Ward, Fukuoka", "icon": "🥩", "needsReservation": true, "hours": "17:00-23:00" }
+      { "time": "09:00", "activity": "JR 音速號 (Sonic)", "details": "博多站 → 小倉站 (轉乘) → 門司港站。車程約 50 分鐘。", "icon": "🚄", "hours": "班次頻繁" },
+      { "time": "10:30", "activity": "門司港站 & 關門聯絡船", "details": "參觀懷舊車站，搭船前往對岸下關 (唐戶)。", "address": "1 Chome-5-31 Nishikaigan, Moji Ward, Kitakyushu", "icon": "⛴️", "hours": "09:00-17:00" },
+      { "time": "午餐", "activity": "唐戶市場周邊海鮮", "details": "推薦「海転からと市場寿司」或「ふくの関」(河豚)。週一市場攤位休息，建議吃餐廳。", "address": "5-50 Karatocho, Shimonoseki, Yamaguchi", "icon": "🐡", "hours": "11:00-15:00" },
+      { "time": "下午", "activity": "赤間神宮 & 門司港懷舊區", "details": "參觀赤間神宮，搭船返回門司港散步。下午茶/晚餐推薦燒咖哩名店：Bear Fruits、伽哩本舗 (海景)、或 Princess Phi Phi。", "address": "4-1 Amidaiji-cho, Shimonoseki", "icon": "⛩️" },
+      { "time": "晚餐", "activity": "燒肉大喜 (Yakiniku Taiki)", "details": "返回福岡市區。唐人町 - 推薦厚切牛舌、橫隔膜。", "address": "2 Chome-4-7 Tojinmachi, Chuo Ward, Fukuoka", "icon": "🥩", "needsReservation": true, "hours": "17:00-23:00" }
     ]
   },
   {
