@@ -7,6 +7,7 @@
     "type": "Omakase 壽司",
     "when": "現在就預約",
     "day": "第六天 (12月18日)",
+    "address": "2-8-28 Maizuru, Chuo Ward, Fukuoka",
     "methods": [
       {
         "name": "信用卡白金秘書",
@@ -83,6 +84,7 @@
     "type": "博多名物 - 雞皮串燒",
     "when": "出發前 2 週預約",
     "day": "第二天 (12月14日)",
+    "address": "3-6 Gionmachi, Hakata Ward, Fukuoka",
     "methods": [
       {
         "name": "電話預約",
@@ -112,6 +114,7 @@
     "type": "法式小酒館",
     "when": "出發前 2 週預約",
     "day": "第五天 (12月17日)",
+    "address": "2-1-50 Daimyo, Chuo Ward, Fukuoka",
     "methods": [
       {
         "name": "電話預約",

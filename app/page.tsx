@@ -1,5 +1,6 @@
 import itineraryData from '@/data/itinerary.json';
 import type { DayItinerary } from '@/types';
+import { getGoogleMapsUrl } from './utils/googleMaps';
 
 export default function Home() {
   // Cast the imported data to the correct type
@@ -115,7 +116,14 @@ export default function Home() {
                       {item.address && (
                         <p className="text-gray-600 text-sm mt-1 flex items-start gap-1">
                           <span>📍</span>
-                          <span>{item.address}</span>
+                          <a 
+                            href={getGoogleMapsUrl(item.address, item.activity)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-fukuoka-blue hover:underline"
+                          >
+                            {item.address}
+                          </a>
                         </p>
                       )}
                     </div>

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import reservationsData from '@/data/reservations.json';
 import type { Reservation } from '@/types';
+import { getGoogleMapsUrl } from '../utils/googleMaps';
 
 export default function ReservationsPage() {
   const [completedReservations, setCompletedReservations] = useState<Set<string>>(new Set());
@@ -168,7 +169,14 @@ export default function ReservationsPage() {
                 {reservation.address && (
                   <div className="mb-6 p-4 bg-blue-50 rounded-lg">
                     <div className="font-bold text-gray-700 mb-1">📍 地址</div>
-                    <div className="text-gray-800">{reservation.address}</div>
+                    <a 
+                      href={getGoogleMapsUrl(reservation.address, reservation.name)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-fukuoka-blue hover:text-fukuoka-pink hover:underline"
+                    >
+                      {reservation.address}
+                    </a>
                   </div>
                 )}
 
