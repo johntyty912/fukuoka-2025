@@ -6,11 +6,35 @@
     "weekday": "星期六",
     "title": "抵達福岡",
     "items": [
-      { "time": "17:05", "activity": "抵達福岡機場", "details": "航班 UO638" },
-      { "time": "18:00", "activity": "前往酒店", "details": "的士約 20 分鐘 或 地鐵至中洲川端站" },
-      { "time": "19:00", "activity": "辦理入住", "details": "三井花園酒店福岡中洲" },
-      { "time": "晚餐", "activity": "拉麵海鳴 (Ramen Unari)", "details": "中洲店 - 著名的青醬拉麵，就在酒店附近。營業至深夜。", "address": "日本〒810-0801 Fukuoka, Hakata Ward, Nakasu, 3 Chome−6−23 和田ビル", "icon": "🍜", "hours": "18:00-06:00" },
-      { "time": "晚上", "activity": "漫步中洲河畔", "details": "體驗福岡著名的屋台 (Yatai) 文化", "icon": "🏮" }
+      {
+        "time": "17:05",
+        "activity": "抵達福岡機場",
+        "details": "航班 UO638"
+      },
+      {
+        "time": "18:00",
+        "activity": "前往酒店",
+        "details": "的士約 20 分鐘 或 地鐵至中洲川端站"
+      },
+      {
+        "time": "19:00",
+        "activity": "辦理入住",
+        "details": "三井花園酒店福岡中洲"
+      },
+      {
+        "time": "晚餐",
+        "activity": "拉麵海鳴 (Ramen Unari)",
+        "details": "中洲店 - 著名的青醬拉麵，就在酒店附近。營業至深夜。",
+        "address": "日本〒810-0801 Fukuoka, Hakata Ward, Nakasu, 3 Chome−6−23 和田ビル",
+        "icon": "🍜",
+        "hours": "18:00-06:00"
+      },
+      {
+        "time": "晚上",
+        "activity": "漫步中洲河畔",
+        "details": "體驗福岡著名的屋台 (Yatai) 文化",
+        "icon": "🏮"
+      }
     ]
   },
   {
@@ -20,12 +44,58 @@
     "weekday": "星期日",
     "title": "博多精選（排隊挑戰日）",
     "items": [
-      { "time": "早上", "activity": "Dacomecca 麵包店", "details": "網紅麵包店，排隊人龍長。建議 8:00 前抵達。", "address": "4-14 Hakataekimae, Hakata Ward, Fukuoka", "icon": "🥐", "hours": "08:00-20:00", "warning": "排隊約 1-2 小時", "backup": "Mutsukado (むつか堂) AMU Plaza 5F" },
-      { "time": "活動", "activity": "探索博多車站城 & 博多運河城", "address": "1-1 Hakataekichuogai, Hakata Ward, Fukuoka", "icon": "🏪" },
-      { "time": "午餐", "activity": "Ikura Hakata", "details": "超人氣漢堡排與蛋包飯，無法預約。", "address": "2-1 Hakataekichuogai, Hakata Ward, Fukuoka", "icon": "🍔", "hours": "11:30-15:00 (賣完即止)", "warning": "無法預約，需排隊", "backup": "Hakata City 9F/10F (Kooten) 餐廳街" },
-      { "time": "下午", "activity": "FUK COFFEE", "details": "博多祇園店", "address": "6-22 Gionmachi, Hakata Ward, Fukuoka", "icon": "☕", "hours": "08:00-20:00" },
-      { "time": "晚餐", "activity": "博多もつ将 或 もつ料理 幸", "details": "牛腸鍋 (Motsunabe)", "address": "3-26 Tsunabamachi, Hakata Ward, Fukuoka", "icon": "🍲", "hours": "17:00-23:00", "warning": "建議預約" },
-      { "time": "晚上", "activity": "Kawaya Gion (皮焼)", "details": "名物雞皮串燒 - 必須預約。", "address": "3-6 Gionmachi, Hakata Ward, Fukuoka", "icon": "🍢", "needsReservation": true, "hours": "17:00-23:00" }
+      {
+        "time": "早上",
+        "activity": "Dacomecca 麵包店",
+        "details": "網紅麵包店，排隊人龍長。建議 8:00 前抵達。",
+        "address": "4-14 Hakataekimae, Hakata Ward, Fukuoka",
+        "icon": "🥐",
+        "hours": "08:00-20:00",
+        "warning": "排隊約 1-2 小時",
+        "backup": "Mutsukado (むつか堂) AMU Plaza 5F"
+      },
+      {
+        "time": "活動",
+        "activity": "探索博多車站城 & 博多運河城",
+        "address": "1-1 Hakataekichuogai, Hakata Ward, Fukuoka",
+        "icon": "🏪"
+      },
+      {
+        "time": "午餐",
+        "activity": "Ikura Hakata",
+        "details": "超人氣漢堡排與蛋包飯，無法預約。",
+        "address": "2-1 Hakataekichuogai, Hakata Ward, Fukuoka",
+        "icon": "🍔",
+        "hours": "11:30-15:00 (賣完即止)",
+        "warning": "無法預約，需排隊",
+        "backup": "Hakata City 9F/10F (Kooten) 餐廳街"
+      },
+      {
+        "time": "下午",
+        "activity": "FUK COFFEE",
+        "details": "博多祇園店",
+        "address": "6-22 Gionmachi, Hakata Ward, Fukuoka",
+        "icon": "☕",
+        "hours": "08:00-20:00"
+      },
+      {
+        "time": "晚餐",
+        "activity": "博多もつ将 或 もつ料理 幸",
+        "details": "牛腸鍋 (Motsunabe)",
+        "address": "3-26 Tsunabamachi, Hakata Ward, Fukuoka",
+        "icon": "🍲",
+        "hours": "17:00-23:00",
+        "warning": "建議預約"
+      },
+      {
+        "time": "晚上",
+        "activity": "Kawaya Gion (皮焼)",
+        "details": "名物雞皮串燒 - 必須預約。",
+        "address": "3-6 Gionmachi, Hakata Ward, Fukuoka",
+        "icon": "🍢",
+        "needsReservation": true,
+        "hours": "17:00-23:00"
+      }
     ]
   },
   {
@@ -35,11 +105,45 @@
     "weekday": "星期一",
     "title": "門司港 & 下關懷舊之旅 (跨越關門海峽)",
     "items": [
-      { "time": "09:00", "activity": "JR 音速號 (Sonic)", "details": "博多站 → 小倉站 (轉乘) → 門司港站。車程約 50 分鐘。", "icon": "🚄", "hours": "班次頻繁" },
-      { "time": "10:30", "activity": "門司港站 & 關門聯絡船", "details": "參觀懷舊車站，搭船前往對岸下關 (唐戶)。", "address": "1 Chome-5-31 Nishikaigan, Moji Ward, Kitakyushu", "icon": "⛴️", "hours": "09:00-17:00" },
-      { "time": "午餐", "activity": "唐戶市場周邊海鮮", "details": "推薦「海転からと市場寿司」或「ふくの関」(河豚)。週一市場攤位休息，建議吃餐廳。", "address": "5-50 Karatocho, Shimonoseki, Yamaguchi", "icon": "🐡", "hours": "11:00-15:00" },
-      { "time": "下午", "activity": "赤間神宮 & 門司港懷舊區", "details": "參觀赤間神宮，搭船返回門司港散步。下午茶/晚餐推薦燒咖哩名店：Bear Fruits、伽哩本舗 (海景)、或 Princess Phi Phi。", "address": "4-1 Amidaiji-cho, Shimonoseki", "icon": "⛩️" },
-      { "time": "晚餐", "activity": "燒肉大喜 (Yakiniku Taiki)", "details": "返回福岡市區。唐人町 - 推薦厚切牛舌、橫隔膜。", "address": "2 Chome-4-7 Tojinmachi, Chuo Ward, Fukuoka", "icon": "🥩", "needsReservation": true, "hours": "17:00-23:00" }
+      {
+        "time": "09:00",
+        "activity": "JR 音速號 (Sonic)",
+        "details": "博多站 → 小倉站 (轉乘) → 門司港站。車程約 50 分鐘。",
+        "icon": "🚄",
+        "hours": "班次頻繁"
+      },
+      {
+        "time": "10:30",
+        "activity": "門司港站 & 關門聯絡船",
+        "details": "參觀懷舊車站，搭船前往對岸下關 (唐戶)。",
+        "address": "1 Chome-5-31 Nishikaigan, Moji Ward, Kitakyushu",
+        "icon": "⛴️",
+        "hours": "09:00-17:00"
+      },
+      {
+        "time": "午餐",
+        "activity": "唐戶市場周邊海鮮",
+        "details": "推薦「海転からと市場寿司」或「ふくの関」(河豚)。週一市場攤位休息，建議吃餐廳。",
+        "address": "5-50 Karatocho, Shimonoseki, Yamaguchi",
+        "icon": "🐡",
+        "hours": "11:00-15:00"
+      },
+      {
+        "time": "下午",
+        "activity": "赤間神宮 & 門司港懷舊區",
+        "details": "參觀赤間神宮，搭船返回門司港散步。下午茶/晚餐推薦燒咖哩名店：Bear Fruits、伽哩本舗 (海景)、或 Princess Phi Phi。",
+        "address": "4-1 Amidaiji-cho, Shimonoseki",
+        "icon": "⛩️"
+      },
+      {
+        "time": "晚餐",
+        "activity": "鮨 品川 (Sushi Shinagawa)",
+        "details": "返回福岡市區。優質 Omakase - 必須預約",
+        "address": "2-8-28 Maizuru, Chuo Ward, Fukuoka",
+        "icon": "🍣",
+        "needsReservation": true,
+        "hours": "18:00-23:00"
+      }
     ]
   },
   {
@@ -49,10 +153,38 @@
     "weekday": "星期二",
     "title": "能古島 & 現代福岡（海景日）",
     "items": [
-      { "time": "09:30", "activity": "能古島海島公園", "details": "從姪濱渡輪站搭船 (10分鐘)。冬季可賞水仙、山茶花。午餐可在島上解決 (能古漢堡)。", "address": "Nokonoshima, Nishi Ward, Fukuoka", "icon": "🏝️", "hours": "09:00-17:30" },
-      { "time": "下午", "activity": "福岡塔 & 百道海濱公園", "details": "返回市區後前往。欣賞福岡天際線與夕陽。Marinoa City 已閉館，故改此行程。", "address": "2-3-26 Momochihama, Sawara Ward, Fukuoka", "icon": "🗼", "hours": "09:30-22:00" },
-      { "time": "備案", "activity": "BOSS E-ZO FUKUOKA", "details": "TeamLab Forest / 棒球場旁娛樂設施 (如下雨可去)", "address": "2-2-6 Jigyohama, Chuo Ward, Fukuoka", "icon": "🎮", "hours": "11:00-20:00" },
-      { "time": "晚餐", "activity": "一幸舍總本店", "details": "博多泡系豚骨拉麵元祖", "address": "3-23-12 Hakataekimae, Hakata Ward, Fukuoka", "icon": "🍜", "hours": "11:00-21:00" }
+      {
+        "time": "09:30",
+        "activity": "能古島海島公園",
+        "details": "從姪濱渡輪站搭船 (10分鐘)。冬季可賞水仙、山茶花。午餐可在島上解決 (能古漢堡)。",
+        "address": "Nokonoshima, Nishi Ward, Fukuoka",
+        "icon": "🏝️",
+        "hours": "09:00-17:30"
+      },
+      {
+        "time": "下午",
+        "activity": "福岡塔 & 百道海濱公園",
+        "details": "返回市區後前往。欣賞福岡天際線與夕陽。Marinoa City 已閉館，故改此行程。",
+        "address": "2-3-26 Momochihama, Sawara Ward, Fukuoka",
+        "icon": "🗼",
+        "hours": "09:30-22:00"
+      },
+      {
+        "time": "備案",
+        "activity": "BOSS E-ZO FUKUOKA",
+        "details": "TeamLab Forest / 棒球場旁娛樂設施 (如下雨可去)",
+        "address": "2-2-6 Jigyohama, Chuo Ward, Fukuoka",
+        "icon": "🎮",
+        "hours": "11:00-20:00"
+      },
+      {
+        "time": "晚餐",
+        "activity": "一幸舍總本店",
+        "details": "博多泡系豚骨拉麵元祖",
+        "address": "3-23-12 Hakataekimae, Hakata Ward, Fukuoka",
+        "icon": "🍜",
+        "hours": "11:00-21:00"
+      }
     ]
   },
   {
@@ -62,11 +194,47 @@
     "weekday": "星期三",
     "title": "天神 & 赤坂（城市氛圍）",
     "items": [
-      { "time": "午餐", "activity": "葫蘆壽司 (Hyotan Sushi)", "details": "天神排隊壽司老店。", "address": "日本〒810-0001 Fukuoka, Chuo Ward, Tenjin, 2 Chome−10−20 新天閣ビル 2F", "icon": "🍣", "warning": "開店前排隊", "hours": "11:30-14:30, 17:00-21:00" },
-      { "time": "購物", "activity": "天神地下街、大名區域", "details": "潮流店鋪、古著店", "address": "2 Chome Tenjin, Chuo Ward, Fukuoka", "icon": "🛍️", "hours": "10:00-20:00" },
-      { "time": "小吃", "activity": "full full", "details": "天神 - 著名的明太子法棍麵包", "address": "1-9-3 Tenjin, Chuo Ward, Fukuoka", "icon": "🥖", "hours": "10:00-18:00" },
-      { "time": "晚餐", "activity": "Nico Appartement", "details": "赤坂 - 法式小酒館風格", "address": "2-1-50 Daimyo, Chuo Ward, Fukuoka", "icon": "🍷", "needsReservation": true, "hours": "18:00-00:00" },
-      { "time": "晚上", "activity": "赤坂區域的小酒館", "details": "小酌", "address": "Akasaka, Chuo Ward, Fukuoka", "icon": "🍻" }
+      {
+        "time": "午餐",
+        "activity": "葫蘆壽司 (Hyotan Sushi)",
+        "details": "天神排隊壽司老店。",
+        "address": "日本〒810-0001 Fukuoka, Chuo Ward, Tenjin, 2 Chome−10−20 新天閣ビル 2F",
+        "icon": "🍣",
+        "warning": "開店前排隊",
+        "hours": "11:30-14:30, 17:00-21:00"
+      },
+      {
+        "time": "購物",
+        "activity": "天神地下街、大名區域",
+        "details": "潮流店鋪、古著店",
+        "address": "2 Chome Tenjin, Chuo Ward, Fukuoka",
+        "icon": "🛍️",
+        "hours": "10:00-20:00"
+      },
+      {
+        "time": "小吃",
+        "activity": "full full",
+        "details": "天神 - 著名的明太子法棍麵包",
+        "address": "1-9-3 Tenjin, Chuo Ward, Fukuoka",
+        "icon": "🥖",
+        "hours": "10:00-18:00"
+      },
+      {
+        "time": "晚餐",
+        "activity": "Nico Appartement",
+        "details": "赤坂 - 法式小酒館風格",
+        "address": "2-1-50 Daimyo, Chuo Ward, Fukuoka",
+        "icon": "🍷",
+        "needsReservation": true,
+        "hours": "18:00-00:00"
+      },
+      {
+        "time": "晚上",
+        "activity": "赤坂區域的小酒館",
+        "details": "小酌",
+        "address": "Akasaka, Chuo Ward, Fukuoka",
+        "icon": "🍻"
+      }
     ]
   },
   {
@@ -76,10 +244,40 @@
     "weekday": "星期四",
     "title": "放鬆 & 在地美食",
     "items": [
-      { "time": "早午餐", "activity": "食堂 光 (Shokudo Hikari)", "details": "柳橋連合市場內傳奇海鮮丼。務必 10:00 前排隊，售完即止", "address": "1-6-1 Haruyoshi, Chuo Ward, Fukuoka 810-0003", "icon": "🐟", "warning": "需提早排隊", "hours": "10:00-14:00" },
-      { "time": "活動", "activity": "KARADA FACTORY", "details": "身體保養/按摩", "address": "9-1 Hakataekichuogai, Hakata Ward, Fukuoka (KITTE Hakata)", "icon": "💆", "hours": "10:00-21:00" },
-      { "time": "購物", "activity": "LOPIA 博多店", "details": "Yodobashi Camera 4F - 購買零食、伴手禮", "address": "6-12 Hakataekichuogai, Hakata Ward, Fukuoka", "icon": "🛒", "hours": "10:00-20:00" },
-      { "time": "晚餐", "activity": "鮨 品川 (Sushi Shinagawa)", "details": "優質 Omakase - 必須預約", "address": "2-8-28 Maizuru, Chuo Ward, Fukuoka", "icon": "🍣", "needsReservation": true, "hours": "18:00-23:00" }
+      {
+        "time": "早午餐",
+        "activity": "食堂 光 (Shokudo Hikari)",
+        "details": "柳橋連合市場內傳奇海鮮丼。務必 10:00 前排隊，售完即止",
+        "address": "1-6-1 Haruyoshi, Chuo Ward, Fukuoka 810-0003",
+        "icon": "🐟",
+        "warning": "需提早排隊",
+        "hours": "10:00-14:00"
+      },
+      {
+        "time": "活動",
+        "activity": "KARADA FACTORY",
+        "details": "身體保養/按摩",
+        "address": "9-1 Hakataekichuogai, Hakata Ward, Fukuoka (KITTE Hakata)",
+        "icon": "💆",
+        "hours": "10:00-21:00"
+      },
+      {
+        "time": "購物",
+        "activity": "LOPIA 博多店",
+        "details": "Yodobashi Camera 4F - 購買零食、伴手禮",
+        "address": "6-12 Hakataekichuogai, Hakata Ward, Fukuoka",
+        "icon": "🛒",
+        "hours": "10:00-20:00"
+      },
+      {
+        "time": "晚餐",
+        "activity": "燒肉大喜 (Yakiniku Taiki)",
+        "details": "唐人町 - 推薦厚切牛舌、橫隔膜。",
+        "address": "2 Chome-4-7 Tojinmachi, Chuo Ward, Fukuoka",
+        "icon": "🥩",
+        "needsReservation": true,
+        "hours": "17:00-23:00"
+      }
     ]
   },
   {
@@ -89,9 +287,30 @@
     "weekday": "星期五",
     "title": "最後衝刺 & 經典回味",
     "items": [
-      { "time": "午餐", "activity": "一蘭拉麵 總本店", "details": "中洲 - 整棟掛燈籠的大樓", "address": "5-3-2 Nakasu, Hakata Ward, Fukuoka", "icon": "🍜", "hours": "24 小時營業" },
-      { "time": "下午", "activity": "最後補貨", "details": "驚安之殿堂 Don Quijote 中洲店", "address": "3-7-24 Nakasu, Hakata Ward, Fukuoka", "icon": "🎁", "hours": "24 小時營業" },
-      { "time": "晚餐", "activity": "元祖博多麵通團 或 回訪喜歡的店家", "details": "烏龍麵。或 Nikuichi (肉いち)", "address": "1-2-18 Hakataekiminami, Hakata Ward, Fukuoka", "icon": "🍜", "hours": "11:00-23:00" }
+      {
+        "time": "午餐",
+        "activity": "一蘭拉麵 總本店",
+        "details": "中洲 - 整棟掛燈籠的大樓",
+        "address": "5-3-2 Nakasu, Hakata Ward, Fukuoka",
+        "icon": "🍜",
+        "hours": "24 小時營業"
+      },
+      {
+        "time": "下午",
+        "activity": "最後補貨",
+        "details": "驚安之殿堂 Don Quijote 中洲店",
+        "address": "3-7-24 Nakasu, Hakata Ward, Fukuoka",
+        "icon": "🎁",
+        "hours": "24 小時營業"
+      },
+      {
+        "time": "晚餐",
+        "activity": "元祖博多麵通團 或 回訪喜歡的店家",
+        "details": "烏龍麵。或 Nikuichi (肉いち)",
+        "address": "1-2-18 Hakataekiminami, Hakata Ward, Fukuoka",
+        "icon": "🍜",
+        "hours": "11:00-23:00"
+      }
     ]
   },
   {
@@ -101,9 +320,23 @@
     "weekday": "星期六",
     "title": "回程",
     "items": [
-      { "time": "早上", "activity": "喝杯咖啡 & 打包行李", "icon": "☕" },
-      { "time": "11:30", "activity": "退房 & 前往機場", "details": "地鐵/的士很快", "icon": "🚕" },
-      { "time": "14:00", "activity": "搭乘航班 HB3369", "details": "返回香港", "icon": "✈️" }
+      {
+        "time": "早上",
+        "activity": "喝杯咖啡 & 打包行李",
+        "icon": "☕"
+      },
+      {
+        "time": "11:30",
+        "activity": "退房 & 前往機場",
+        "details": "地鐵/的士很快",
+        "icon": "🚕"
+      },
+      {
+        "time": "14:00",
+        "activity": "搭乘航班 HB3369",
+        "details": "返回香港",
+        "icon": "✈️"
+      }
     ]
   }
 ]
